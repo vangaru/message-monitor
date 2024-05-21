@@ -1,0 +1,12 @@
+version: "3.9"
+
+services:
+  message-monitor-api:
+    restart: unless-stopped
+    build:
+      context: ./Source
+      dockerfile: MessageMonitor.Api/Dockerfile
+    ports:
+      - "5081:8080"
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Production

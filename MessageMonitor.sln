@@ -6,6 +6,9 @@ MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Source", "Source", "{9439D648-BA18-4E0B-9A15-96714BF0B7FB}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Common", "Common", "{5E9E77B8-5A84-40C2-A877-EB25FF05DD09}"
+	ProjectSection(SolutionItems) = preProject
+		docker-compose.yml = docker-compose.yml
+	EndProjectSection
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MessageMonitor.Api", "Source\MessageMonitor.Api\MessageMonitor.Api.csproj", "{648B8421-1847-4E86-9C7A-94AA583EA830}"
 EndProject
